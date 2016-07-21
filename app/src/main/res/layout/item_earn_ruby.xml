@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/earn_item_bg">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/image_earn"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gift_horo_bachduong"
+        android:layout_marginLeft="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:id="@+id/txt_name_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <TextView
+                android:id="@+id/txt_ruby_earn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/holo_orange_light"
+               />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/txt_ruby_earn"
+                android:src="@drawable/earn_ruby_icon"
+                android:layout_centerVertical="true"/>
+            <ImageButton
+                android:id="@+id/ibtn_mo_ruby"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/earn_btn_open"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="17dp"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                />
+            </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

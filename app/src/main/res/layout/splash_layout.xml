@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+    
+<!-- <ImageView 
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:src="@drawable/weplay_logo"
+    android:layout_gravity="center"
+    android:layout_margin="60dp"
+    android:id="@+id/splash_logo"/>
+<ImageView 
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:src="@drawable/splash"
+    android:id="@+id/splash_game"
+    android:scaleType="fitXY"/>  -->
+   <ImageView
+        android:id="@+id/img_splash"
+        android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:src="@drawable/splash"
+    android:scaleType="fitXY"
+    android:layout_gravity="center"
+    android:background="@drawable/anim_splash"/> 
+    
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Đuổi hình bắt chữ</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dandatimradapan">Bạn đã tìm ra đáp án:</string>
+    <string name="banduoctang">Bạn được tặng:\t\t\t\t Ruby</string>
+    <string name="quatangcuocsong">QUÀ TẶNG CUỘC SỐNG</string>
+    
+    <string name="bachduong">Bạch Dương</string>
+    <string name="kimnguu">Kim Ngưu</string>
+    <string name="songtu">Song Tử</string>
+    <string name="cugiai">Cự Giải</string>
+    <string name="sutu">Sư Tử</string>
+    <string name="xunu">Xử Nữ</string>
+    <string name="thienbinh">Thiên Bình</string>
+    <string name="thannong">Thần Nông</string>
+    <string name="nhanma">Nhân Mã</string>
+    <string name="maket">Ma Kết</string>
+    <string name="baobinh">Bảo Bình</string>
+    <string name="songngu">Song Ngư</string>
+    
+    
+    <string name="choncunghoangdao">Chọn cung hoàng đạo của mình để biết những bí mật của ngày hôm nay nhé</string>
+
+</resources>

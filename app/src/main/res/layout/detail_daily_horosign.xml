@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gift_horo_bg" >
+    <ImageButton
+            android:id="@+id/btn_back_detail_horo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/selector_gift_horo_back" />
+    
+    <ImageButton
+            android:id="@+id/btn_share_detail_horo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/selector_gift_horo_share" />
+    <ImageView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/gift_horo_detail_bachduong"
+        android:id="@+id/img_detail_daily_horo"
+        />
+    
+    <ScrollView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:background="@drawable/gift_horo_detail_bg"
+        android:layout_below="@id/img_detail_daily_horo"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        >
+        <TextView
+        android:id="@+id/txt_content_daily_horo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/choncunghoangdao"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:padding="15dp" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/txt_title_daily_horo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_detail_daily_horo"
+        android:layout_centerHorizontal="true"
+        android:text="Bạch Dương\n21/3 - 19/4"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"
+        android:gravity="center"
+        android:textStyle="italic|bold" />
+
+</RelativeLayout>
